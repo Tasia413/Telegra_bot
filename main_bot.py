@@ -4,8 +4,7 @@ bot = telebot.TeleBot('Токен Бота')
 bot.remove_webhook()
 googlesheet_id = 'Токен для Эксель'
 gc = gspread.service_account(
-     filename='C:\\Users\\Настя\\AppData\\Local\\Programs\\Python\\Python310'
-              '\\Lib\\site-packages\\gspread\\service_account.json')
+     filename='C:\\fileadress\\service_account.json')
 
 
 @bot.message_handler(commands=['start'])
